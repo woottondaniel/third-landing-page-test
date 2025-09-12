@@ -36,3 +36,115 @@ header .pages a {
     text-decoration: none;
     font-style: italic;
 }
+
+/*section one exactly 30mins*/
+
+.s-one {
+    display: flex;
+    flex-wrap: wrap;
+    color: antiquewhite;
+    background-color: rgb(15, 18, 136);
+    padding: 120px 32px;
+}
+
+.s-one .hero {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    gap: 64px;
+    margin: auto;
+}
+
+.s-one .hero .text {
+    border: 2px solid black;
+    background-color: rgb(94, 190, 190);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.s-one .hero .text .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.s-one .hero .text .button-one {
+    border: #9e83a5;
+    background-color: #9e83a5;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 12px;
+    transition: 0.15s;
+}
+
+.s-one .hero .text .button-one:hover {
+    border: #9a63a8;
+    background-color: #9a63a8;
+}
+
+.s-one .hero .text .button-one a {
+    color: antiquewhite;
+    text-decoration: none;
+}    
+
+.s-one .hero .image {
+    border: 2px solid antiquewhite;
+    border-radius: 8px;
+    background-position: cover;
+    max-height: 240px;
+    width: auto;
+    overflow: hidden;
+}
+
+.s-one .hero .image img {
+    max-height: 240px;
+    width: auto;
+    border: 0;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+}
+
+/*section two*/
+
+.s-two {
+    background-color: beige;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-two h1 {
+    text-align: center;
+}
+
+.s-two .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.s-two .boxes .photos {
+    border: 1px solid turquoise;
+    border-radius: 4px;
+    max-height: 180px;
+    width: auto;
+    display: inline-block;
+    gap: 24px;
+}
+
+.s-two .boxes .photos img {
+    display: inline-block;
+    max-height: 180px;
+    width: auto;
+    gap: 24px
+}
