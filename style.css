@@ -119,6 +119,7 @@ header .pages a {
     padding: 16px 24px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 78px;
 }
 
 .s-two h1 {
@@ -131,6 +132,7 @@ header .pages a {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    gap: 16px
 }
 
 .s-two .boxes .photos {
