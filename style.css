@@ -170,6 +170,8 @@ header .pages a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .s-three h1 {
@@ -179,10 +181,18 @@ header .pages a {
 .s-three .quote {
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    max-width: 800px;
     font-size: 64px;
+    margin: 0 auto;
+}
+
+.s-three .quote p {
+    text-align: center;
 }
 
 .s-three .quote .attr {
     font-style: italic;
-    align-self: flex-end;
+    align-self: stretch;
+    text-align: right;
 }
