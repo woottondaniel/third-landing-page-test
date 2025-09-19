@@ -242,3 +242,15 @@ header .pages a {
     color: black;
     text-decoration: none;
 }
+
+/* footer 1 min*/
+
+footer {
+    background-color: rgb(15, 18, 136);
+    color: aliceblue;
+    text-align: center;
+    font-size: x-small;
+    margin: auto;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
