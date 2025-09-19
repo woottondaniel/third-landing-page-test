@@ -112,7 +112,7 @@ header .pages a {
     display: block;
 }
 
-/*section two*/
+/*section two c.25 mins*/
 
 .s-two {
     background-color: beige;
@@ -137,16 +137,26 @@ header .pages a {
 
 .s-two .boxes .photos {
     border: 1px solid turquoise;
+    background-color: #9e83a5;
+    color: aliceblue;
     border-radius: 4px;
-    max-height: 180px;
     width: auto;
     display: inline-block;
+    flex-direction: column;
     gap: 24px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 4px 8px;
+    overflow: hidden;
+    align-items: center;
+    font-style: italic;
 }
 
 .s-two .boxes .photos img {
-    display: inline-block;
+    display: block;
     max-height: 180px;
     width: auto;
-    gap: 24px
+    gap: 24px;
+    margin: 0 auto;
+    padding-top: 6px;
 }
